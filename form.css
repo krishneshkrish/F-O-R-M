@@ -1,0 +1,74 @@
+/* Center the form */
+form {
+  border: 1px solid black;
+  width: fit-content;
+  padding: 20px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  backdrop-filter: blur(15px);
+  
+
+
+}
+
+/* Style the labels */
+label {
+  display:inline-block;
+  margin-bottom: 5px;
+  font-weight: bolder;
+  color: aliceblue;
+}
+
+/* Style the input fields */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+  padding: 5px;
+  border-radius: 189px;
+  border: 2px solid #000000;
+  background-color: dimgray;
+  color: white;
+  margin-bottom: 20px;
+  width: 250px;
+}
+
+/* Style the submit button */
+input[type="submit"] {
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 69px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+/* Style the error message */
+.alert {
+  color: red;
+  margin-bottom: 10px;
+}
+h2{
+  border:px solid black;
+  text-align: center;
+  border-radius: 500px;
+  width: 250px;
+  background-color: #00ff08;
+}
+body{
+ background-image:url('reg.png');
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
